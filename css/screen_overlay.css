@@ -989,7 +989,6 @@ transform: translateX(1rem) translateY(calc(100vh + 9rem));
 */
 .c-tutorial{
     font-size: 50px;
-    padding-top: 80px;
     text-align: left;
   }
   .c-instructions{
