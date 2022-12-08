@@ -1003,6 +1003,12 @@ transform: translateX(1rem) translateY(calc(100vh + 9rem));
     font-size: 24px;
     text-align: center;
   }
+
+  .c-description{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 100;
+  }
   
   
   .csslider {
