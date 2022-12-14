@@ -512,7 +512,7 @@ input:disabled {
 .c-login.active 
 { 
 transform: translateY(50vh) translateX(calc(calc(100vw - 80vw)/2));
--webkit-transform: translateY(50vh) translateX(calc(calc(100vw - 80vw)/2));
+-webkit-transform: translateY(40vh) translateX(calc(calc(100vw - 80vw)/2));
 }
 
 .c-login-background{
