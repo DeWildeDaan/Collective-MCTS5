@@ -610,6 +610,7 @@ transform: translateY(50vh) translateX(calc(calc(100vw - 80vw)/2));
     -moz-appearance: none;
     appearance: none;
     width: 100%;
+    height: 5rem;
     border-radius: var(--global-borderRadius);
     border: 1px solid var(--global-color-neural-x-dark);
     background-color: var(--global-color-neural);
@@ -619,6 +620,10 @@ transform: translateY(50vh) translateX(calc(calc(100vw - 80vw)/2));
     padding: calc(0.75rem - 1px) 1rem;
     outline: none;
     transition: var(--input-transition);
+}
+
+.c-long-input{
+    height: 15rem;
 }
 
 .c-input::placeholder{
@@ -679,10 +684,10 @@ transform: translateY(50vh) translateX(calc(calc(100vw - 80vw)/2));
 }
 
 .c-custom-select__symbol {
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 28px;
     position: absolute;
-    top: 12px;
+    top: 25%;
     right: 12px;
     pointer-events: none;
     fill: var(--global-color-neutral-x-light);
